@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(24, 209, 17) 0%,
+    rgb(6, 231, 156) 100%    
+  );
+}
+
+.todo-app{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: start;
+  width: 512px;
+  min-height: 600px;
+  background: #191b1b;
+  text-align: center;
+  margin: 150px auto;
+  padding-top: 20px;
+  /* color: rgb(247, 2, 2); */
+  border-radius: 25px;
+}
+
+h1 {
+  margin: 32px 0;
+  color: #fff;
+  font-size: 24px;
+}
+

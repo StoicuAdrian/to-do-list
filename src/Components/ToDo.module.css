@@ -1,0 +1,48 @@
+.li{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    background-color:  #0b523b;
+	border:2px solid #3cf398;
+    position: relative;
+    height: 50px;
+    text-align: start;
+    color: aliceblue;
+
+}
+
+.todo{
+    list-style-type: none;
+    display: inline;
+}
+
+.delButton{
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+    position: relative;
+    position:absolute;
+    right: 5px;
+    bottom: 13px;
+    cursor: pointer;
+}
+
+.done{
+    background-color: transparent;
+    border: none;
+    margin-right: 40px;
+    position: relative;
+    position:absolute;
+    right: 5px;
+    bottom: 13px;
+    cursor: pointer;
+}
+
+.showLine{
+    width: 82%;
+    border: 0;
+    border-top: 1px solid black;
+    position: absolute;
+    top: 50%;
+}
+

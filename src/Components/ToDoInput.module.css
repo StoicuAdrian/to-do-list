@@ -1,0 +1,79 @@
+.holder{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display:inline-block;
+}
+
+.button{
+    background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+	background-color:#74ad5a;
+	border:2px solid #3b6e22;
+	display:inline-block;
+	cursor:pointer;
+    	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding: 10px 30px;
+	text-decoration:none;
+    border-radius: 0px 15px 15px 0px;
+    
+}
+
+.button:hover {
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	background-color:#68a54b;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+.input{
+    height: 40px;
+    width: 300px;
+    border-radius: 15px 0px 0px 15px;
+    padding: 10px 30px;
+    border:2px solid #3b6e22;
+    outline: none;
+    background-color: white;
+}
+
+.li{
+    background-color: aqua;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    background-color:  #0184ac;
+	border:2px solid #3b6e22;
+    position: relative;
+    height: 50px;
+}
+
+.todo{
+    list-style-type: none;
+    display: inline;
+}
+
+.delButton{
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+    position: relative;
+    position:absolute;
+    right: 5px;
+    bottom: 13px;
+    cursor: pointer;
+}
+
+.done{
+    background-color: transparent;
+    border: none;
+    margin-right: 40px;
+    position: relative;
+    position:absolute;
+    right: 5px;
+    bottom: 13px;
+    cursor: pointer;
+}
